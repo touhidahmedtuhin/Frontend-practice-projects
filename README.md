@@ -1,4 +1,4 @@
-#### 💻 Built With
+# 💻 Built With
 
 <img src="https://skillicons.dev/icons?i=js,css,html" /> </br>  </br>
 🛠️ This project leverages the essential trio of front-end technologies:
