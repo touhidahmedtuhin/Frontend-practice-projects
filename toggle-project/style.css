@@ -1,0 +1,29 @@
+.mybutton {
+padding: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.mypara {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+#paradiv {
+   width: 200px;
+  height: 150px;
+  background-color: #d4d1d1;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hidden  {
+  display: none;
+}
