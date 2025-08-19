@@ -1,0 +1,35 @@
+body{
+    margin: 100px;
+    font-family: Segoe UI;
+}
+.grid-container{
+    background-color: aquamarine;
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* grid-template-columns: repeat(3,1fr); */
+    gap: 5px;
+}
+.grid-container>div{
+    background-color: blueviolet;
+    height:200px;
+   text-align: center;
+}
+
+/* @media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    body{
+        margin: 80px;
+    }
+}
+@media (max-width:480px){
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    body{
+        margin: 70px;
+    }
+} */
